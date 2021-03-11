@@ -1,5 +1,9 @@
 # NewsBot
 
+## In the next update
+
+- [ ] Make relative path for non raspberry pi user
+
 ## Setup
 
 To setup you bot you will need:
