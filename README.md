@@ -1,8 +1,11 @@
 # NewsBot
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/05a1ba577390ab4772af/maintainability)](https://codeclimate.com/github/ungarscool1/NewsBot/maintainability)
+
+
 ## In the next update
 
-- [ ] Make relative path for non raspberry pi user
+- [x] Make relative path for non raspberry pi user
 
 ## Setup
 
