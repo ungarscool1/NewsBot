@@ -15,8 +15,9 @@ public class News {
     private String channel;
     private String url;
     private Color color;
+    private String guid;
 
-    public News(String title, String description, String image, String footer_image, String footer_text, String channel, String url) {
+    public News(String title, String description, String image, String footer_image, String footer_text, String channel, String url, String guid) {
         this.title = title.replaceAll("&nbsp;", "");
         this.description = (description.length() < 500) ? description.replaceAll("&nbsp;", "") : description.substring(0, 500).replaceAll("&nbsp;", "");
         this.image = image;
@@ -56,5 +57,9 @@ public class News {
 
     public String getChannel() {
         return channel;
+    }
+
+    public String getGuid() {
+        return guid;
     }
 }
